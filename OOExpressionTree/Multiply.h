@@ -1,15 +1,16 @@
 #pragma once
 #include "TreeNode.h"
-class Constant :
+class Multiply :
 	public TreeNode
 {
 public:
-	Constant(double value);
-	virtual ~Constant() {};
+	Multiply(TreeNode* left, TreeNode* right);
+	virtual ~Multiply() {};
 	virtual double evaluate() const override;
 	virtual std::string print() const override;
 
 private:
-	double value;
+	TreeNode* left;
+	TreeNode* right;
 };
 

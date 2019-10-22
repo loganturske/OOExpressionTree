@@ -5,3 +5,4 @@ TreeNode::TreeNode()
 
 TreeNode::TreeNode(TreeNode* left, TreeNode* right)
 	: left(left), right(right) {};
+

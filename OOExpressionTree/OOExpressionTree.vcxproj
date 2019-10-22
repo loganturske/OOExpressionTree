@@ -153,13 +153,19 @@
   <ItemGroup>
     <ClCompile Include="Add.cpp" />
     <ClCompile Include="Constant.cpp" />
+    <ClCompile Include="Divide.cpp" />
+    <ClCompile Include="Multiply.cpp" />
     <ClCompile Include="OOExpressionTree.cpp" />
+    <ClCompile Include="Subtract.cpp" />
     <ClCompile Include="Tree.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Add.h" />
     <ClInclude Include="Constant.h" />
+    <ClInclude Include="Divide.h" />
+    <ClInclude Include="Multiply.h" />
+    <ClInclude Include="Subtract.h" />
     <ClInclude Include="Tree.h" />
     <ClInclude Include="TreeNode.h" />
   </ItemGroup>

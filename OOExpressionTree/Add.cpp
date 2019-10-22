@@ -7,3 +7,8 @@ double Add::evaluate() const
 {
 	return this->left->evaluate() + this->right->evaluate();
 }
+
+std::string Add::print() const
+{
+	return "(" + this->left->print() + " + " + this->right->print() + ")";
+}
