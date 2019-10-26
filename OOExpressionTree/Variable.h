@@ -1,17 +1,20 @@
 #pragma once
 #include "TreeNode.h"
-class Constant :
+#include "SymbolTable.h"
+#include "Constant.h"
+
+class Variable :
 	public TreeNode
 {
 public:
-	Constant(double value);
-	virtual ~Constant() {};
+	Variable(std::string name);
+	virtual ~Variable() {};
 	virtual TreeNode* derivative(std::string var) const override;
 	virtual TreeNode* clone() const override;
 	virtual double evaluate() const override;
 	virtual std::string print() const override;
 
 private:
-	double value;
+	std::string name;
 };
 

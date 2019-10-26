@@ -21,3 +21,8 @@ std::ostream& operator<<(std::ostream& output, const Tree& root)
 	// Return the ostream
 	return output;
 }
+
+Tree Tree::Derivative(std::string var)
+{
+	return Tree(this->root->derivative(var));
+}

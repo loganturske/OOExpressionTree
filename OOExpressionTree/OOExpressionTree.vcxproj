@@ -157,8 +157,10 @@
     <ClCompile Include="Multiply.cpp" />
     <ClCompile Include="OOExpressionTree.cpp" />
     <ClCompile Include="Subtract.cpp" />
+    <ClCompile Include="SymbolTable.cpp" />
     <ClCompile Include="Tree.cpp" />
     <ClCompile Include="TreeNode.cpp" />
+    <ClCompile Include="Variable.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Add.h" />
@@ -166,8 +168,10 @@
     <ClInclude Include="Divide.h" />
     <ClInclude Include="Multiply.h" />
     <ClInclude Include="Subtract.h" />
+    <ClInclude Include="SymbolTable.h" />
     <ClInclude Include="Tree.h" />
     <ClInclude Include="TreeNode.h" />
+    <ClInclude Include="Variable.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

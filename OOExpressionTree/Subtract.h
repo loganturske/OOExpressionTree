@@ -6,6 +6,8 @@ class Subtract :
 public:
 	Subtract(TreeNode* left, TreeNode* right);
 	virtual ~Subtract() {};
+	virtual TreeNode* derivative(std::string var) const override;
+	virtual TreeNode* clone() const override;
 	virtual double evaluate() const override;
 	virtual std::string print() const override;
 
